@@ -12,6 +12,8 @@ fn main() {
     // let mut spaces = "   ";
     //spaces = spaces.len();
     
-
+    let guess: u32 = "42".parse().expect("NOT A NUMBER!");
+    // let guess = "42".parse().expect("NOT A NUMBER!"); // type ERROR
     
+    println!("{}",guess);
 }
